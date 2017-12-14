@@ -764,9 +764,11 @@ blockquote {
 }
 
 .list li {
-    font-size: 18px;
-    color: #333333;
-    font-weight: 400;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    /* font-size: 18px; */
+    /* color: #333333; */
+    /* font-weight: 400; */
     margin-bottom: 10px;
 }
 
