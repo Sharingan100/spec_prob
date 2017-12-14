@@ -93,6 +93,15 @@ p {
     font-family: "Poppins", sans-serif;
 }
 
+h4 {
+    font-weight: bold;
+}
+
+/* h4 li {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+} */
+
 button {
     background-color: transparent;
 }
