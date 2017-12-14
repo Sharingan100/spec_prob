@@ -1,19 +1,3 @@
-
-            // d3.text("data.csv", function(data) {
-            //     var parsedCSV = d3.csv.parseRows(data);
-
-            //     var container = d3.select("body")
-            //         .append("table")
-
-            //         .selectAll("tr")
-            //             .data(parsedCSV).enter()
-            //             .append("tr")
-
-            //         .selectAll("td")
-            //             .data(function(d) { return d; }).enter()
-            //             .append("td")
-            //             .text(function(d) { return d; });
-            // });
 var data = [
   {
     "No.": 1,
@@ -423,7 +407,7 @@ var data = [
 ]
 		
 function tabulate(data, columns) {
-	var table = d3.select('body').append('table')
+	var table = d3.select('#traffic').append('table')
 	var thead = table.append('thead')
 	var	tbody = table.append('tbody');
 
